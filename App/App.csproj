@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>TaskQueueProject</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ActionRunnerProject\ActionRunnerProject.csproj" />
+      <ProjectReference Include="..\AssemblyReaderProject\AssemblyReaderProject.csproj" />
+      <ProjectReference Include="..\MutexProject\MutexProject.csproj" />
+      <ProjectReference Include="..\NativeBufferProject\NativeBufferProject.csproj" />
+      <ProjectReference Include="..\TaskQueueProject\TaskQueueProject.csproj" />
+    </ItemGroup>
+
+</Project>
